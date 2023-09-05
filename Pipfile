@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 markdown = "*"
+sympy = "*"
+matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 
