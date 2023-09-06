@@ -8,6 +8,7 @@ markdown = "*"
 sympy = "*"
 matplotlib = "*"
 numpy = "*"
+scipy = "*"
 
 [dev-packages]
 
