@@ -1,0 +1,310 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.9.20)  20 SEP 2023 22:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (D:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(D:\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (D:\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count193
+\calc@Bcount=\count194
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count195
+\calc@Cskip=\skip51
+) (D:\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen141
+\ESO@tempdimb=\dimen142
+(D:\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(D:\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(D:\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(D:\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen143
+\stockheight=\dimen144
+)
+(D:\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+))
+(D:\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(D:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
+\AM@pagewidth=\dimen147
+\AM@pageheight=\dimen148
+\AM@fboxrule=\dimen149
+
+(D:\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count196
+\AM@pagebox=\box51
+\AM@global@opts=\toks17
+\AM@pagecnt=\count197
+\AM@toc@title=\toks18
+\AM@lof@heading=\toks19
+\c@AM@survey=\count198
+\AM@templatesizebox=\box52
+)
+(D:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box53
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+(D:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count266
+\scratchdimen=\dimen150
+\scratchbox=\box54
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen151
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks21
+) (D:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(D:\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(D:\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(D:\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(D:\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+<python_outputs/1a.pdf, id=1, 614.295pt x 794.97pt>
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf>
+Package pdftex.def Info: python_outputs/1a.pdf  used on input line 13.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf>
+Package pdftex.def Info: python_outputs/1a.pdf  used on input line 13.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<python_outputs/1a.pdf, id=4, page=1, 614.295pt x 794.97pt>
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 1>
+Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 1>
+Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [1
+
+{C:/Users/Aaron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 1>
+Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 1>
+Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 1>
+Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [2 <./python_outputs/1a.pdf>]
+<python_outputs/1a.pdf, id=73, page=2, 614.295pt x 794.97pt>
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 2>
+Package pdftex.def Info: python_outputs/1a.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 2>
+Package pdftex.def Info: python_outputs/1a.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 2>
+Package pdftex.def Info: python_outputs/1a.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [3 <./python_outputs/1a.pdf>]
+<python_outputs/1a.pdf, id=77, page=3, 614.295pt x 794.97pt>
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 3>
+Package pdftex.def Info: python_outputs/1a.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 3>
+Package pdftex.def Info: python_outputs/1a.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1a.pdf Graphic file (type pdf)
+<use python_outputs/1a.pdf, page 3>
+Package pdftex.def Info: python_outputs/1a.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [4 <./python_outputs/1a.pdf>]
+<matlab_outputs/a1.pdf, id=81, 614.295pt x 794.97pt>
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf>
+Package pdftex.def Info: matlab_outputs/a1.pdf  used on input line 16.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf>
+Package pdftex.def Info: matlab_outputs/a1.pdf  used on input line 16.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<matlab_outputs/a1.pdf, id=84, page=1, 614.295pt x 794.97pt>
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 1>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 1>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [5]
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 1>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 1>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 1>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [6 <./matlab_outputs/a1.pdf>]
+<matlab_outputs/a1.pdf, id=100, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[7 <./matlab_outputs/a1.pdf>]
+<matlab_outputs/a1.pdf, id=105, page=3, 614.295pt x 794.97pt>
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [8 <./matlab_outputs/a1.pdf>] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 2807 strings out of 475385
+ 44844 string characters out of 2793322
+ 389288 words of memory out of 3000000
+ 24176 multiletter control sequences out of 15000+600000
+ 472899 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,17n,76p,223b,426s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr17.pfb>
+Output written on main.pdf (8 pages, 123809 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

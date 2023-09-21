@@ -1,4 +1,4 @@
-function matlab_script()
+function main_function()
 
     % Constants
     TIMESTEP = 0.01;
@@ -33,26 +33,16 @@ end
 
 function result = simpsons_integration(xf, yf, idx_start, idx_stop)
     n = idx_stop - idx_start;
-    if mod(n, 2) == 0
-        error('Number of intervals should be even for Simpson''s rule.');
+    if mod(n, 2) ~= 0
+        error('Number of intervals should be even for composite Simpson''s rule.');
     end
 
     h = (xf(idx_stop) - xf(idx_start)) / n;
     result = 0;
 
-    for i = 0:n
-        y = yf(idx_start + i);
-        
-        if i == 0 || i == n
-            result = result + y;
-        elseif mod(i, 2) == 0
-            result = result + 2*y;
-        else
-            result = result + 4*y;
-        end
+    for i = 0:2:n-2
+        result = result + (h/3) * (yf(idx_start + i) + 4*yf(idx_start + i + 1) + yf(idx_start + i + 2));
     end
-
-    result = result * h/3;
 end
 
 function visualize_signal_and_fft_simpsons(signal, timestep, mod_freq_hz, channel_separation_hz)
@@ -64,9 +54,9 @@ function visualize_signal_and_fft_simpsons(signal, timestep, mod_freq_hz, channe
     [idx_start, ~] = find_nearest(xf, freq_start);
     [idx_stop, ~] = find_nearest(xf, freq_stop);
 
-    % Ensure even number of intervals
-    if mod(idx_stop - idx_start, 2) == 0
-        idx_stop = idx_stop + 1;
+    % Ensure an odd number of indices (even number of intervals) for Simpson's rule
+    if mod(idx_stop - idx_start, 2) == 1
+        idx_stop = idx_stop - 1;
     end
 
     integrated_area = simpsons_integration(xf, yf, idx_start, idx_stop);
