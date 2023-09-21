@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{pdfpages} % Required package for including PDFs
 \usepackage{graphicx} % Required package for including images
+\usepackage{hyperref} % Required for hyperlinks
 \usepackage{lipsum}   % Used for generating dummy text (remove in your actual document)
 
 \begin{document}
@@ -12,6 +13,11 @@
 \maketitle
 
 \section{HW template}
+
+\parbox{\textwidth}{
+For more details, the entire template and its supplementary materials can be found on GitHub: \href{https://github.com/aqsnyder/eng_math/tree/main/hw_o}{https://github.com/aqsnyder/eng\_math/tree/main/hw\_o}.
+Under the hw 0 directory exists the necesaary files for this LaTeX generation,  the compiled plots, matlab exports, python exports, the virtual jupyter kernels used to prototype python code, and all matlab files.
+}
 \includepdf[pages=-]{hw0_cover.pdf} % Include the Python PDF
 
 \section{Hand Calcs}
@@ -59,5 +65,9 @@
 \includepdf[pages=-]{matlab_outputs/b2.pdf} % Include the MATLAB PDF
 \includepdf[pages=-]{matlab_outputs/a3.pdf} % Include the MATLAB PDF
 \includepdf[pages=-]{matlab_outputs/b3.pdf} % Include the MATLAB PDF
+
+\section{Compiled Plots}
+
+\includepdf[pages=-]{compiled_outputs/compiled_plots.pdf} % Include the Python PDF
 
 \end{document}
