@@ -1,18 +1,63 @@
 \documentclass{article}
 \usepackage{pdfpages} % Required package for including PDFs
+\usepackage{graphicx} % Required package for including images
+\usepackage{lipsum}   % Used for generating dummy text (remove in your actual document)
 
 \begin{document}
 
-\title{Combined PDF Example}
-\author{Your Name}
+\title{EngMath - HW0}
+\author{A. Q. Snyder}
 \date{\today}
 
 \maketitle
 
+\section{HW template}
+\includepdf[pages=-]{hw0_cover.pdf} % Include the Python PDF
+
+\section{Hand Calcs}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{hand-calcs.jpg}
+\end{figure}
+
+\vspace{2cm}  % Add vertical space of 2cm
+
+\includepdf[pages=-]{hand_calcs/1b.pdf} % Include the Python PDF
+\includepdf[pages=-]{hand_calcs/1c.pdf} % Include the Python PDF
+\includepdf[pages=-]{hand_calcs/2b.pdf} % Include the Python PDF
+\includepdf[pages=-]{hand_calcs/3b.pdf} % Include the Python PDF
+
+
 \section{Python Outputs}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Python-Logo.jpg}
+\end{figure}
+
+\vspace{2cm}  % Add vertical space of 2cm
+
 \includepdf[pages=-]{python_outputs/1a.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/1b.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/1c.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/2a.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/1b.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/3a.pdf} % Include the Python PDF
+\includepdf[pages=-]{python_outputs/3b.pdf} % Include the Python PDF
 
 \section{MATLAB Outputs}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Matlab-Logo.jpg}
+\end{figure}
+
+\vspace{2cm}  % Add vertical space of 2cm
+
 \includepdf[pages=-]{matlab_outputs/a1.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/b1.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/c1.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/a2.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/b2.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/a3.pdf} % Include the MATLAB PDF
+\includepdf[pages=-]{matlab_outputs/b3.pdf} % Include the MATLAB PDF
 
 \end{document}
