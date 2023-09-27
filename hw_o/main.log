@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.21)  21 SEP 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.9.20)  26 SEP 2023 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30>
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -23,14 +23,13 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count193
 \calc@Bcount=\count194
@@ -43,32 +42,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count195
 \calc@Cskip=\skip52
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.s
-ty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen143
 \ESO@tempdimb=\dimen144
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
-ty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\colo
-r.cfg
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
-ex.def
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolo
-r.ltx)
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -79,19 +73,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ))
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
-hics.cfg
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
@@ -103,176 +95,158 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \AM@pageheight=\dimen148
 \AM@fboxrule=\dimen149
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex
-.def
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count196
 \AM@pagebox=\box51
-\AM@global@opts=\toks17
+\AM@global@opts=\toks18
 \AM@pagecnt=\count197
-\AM@toc@title=\toks18
-\AM@lof@heading=\toks19
+\AM@toc@title=\toks19
+\AM@lof@heading=\toks20
 \c@AM@survey=\count198
 \AM@templatesizebox=\box52
-)
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref
-.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdft
-excmds.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwa
-rerr.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetke
-ys.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kv
-definekeys.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfes
-cape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.s
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
 ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letlt
-xmacro.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.s
-ty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.
-sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\
-gettitlestring.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptio
-ns.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count199
 )
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+)
 \@linkdim=\dimen150
-\Hy@linkcounter=\count266
-\Hy@pagecounter=\count267
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.d
-ef
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcm
-ds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count268
+\Hy@SavedSpaceFactor=\count269
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.de
-f
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count269
- (C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count270
+
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen151
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.s
-ty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigi
-ntcalc.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count270
+\Fld@menulength=\count271
 \Field@Width=\dimen152
 \Fld@charsize=\dimen153
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx
-.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count271
-\c@Item=\count272
-\c@Hfootnote=\count273
+\Hy@abspage=\count272
+\c@Item=\count273
+\c@Hfootnote=\count274
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.
-def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
-
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-lt
-x.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count274
-\c@bookmark@seq@number=\count275
+\Fld@listcount=\count275
+\c@bookmark@seq@number=\count276
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\re
-runfilecheck.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\u
-niquecounter.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -280,29 +254,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys
-2e\l3keys2e.sty
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.st
-y
-Package: expl3 2023-03-30 L3 programming layer (loader) 
-
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
-nd-pdftex.def
-File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box53
 ))
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count277
-\l__lipsum_a_int=\count278
-\l__lipsum_b_int=\count279
+\g__lipsum_par_int=\count278
+\l__lipsum_a_int=\count279
+\l__lipsum_b_int=\count280
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd
-.tex)) (main.aux)
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -324,48 +296,47 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
-pdf.mkii
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
+\scratchcounter=\count281
 \scratchdimen=\dimen154
 \scratchbox=\box54
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count283
+\nofMPsegments=\count282
+\nofMParguments=\count283
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count284
 \MPscratchDim=\dimen155
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks21
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
+\everyMPtoPDFconversion=\toks22
 )
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
-opdf-base.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf
--sys.cfg
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflsca
-pe.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflsca
-pe-nometadata.sty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\AaronSnyder\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.s
-ty
+(C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring OFF on input line 7.
- (main.out) (main.out)
+
+(main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -420,7 +391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 [1
 
-{C:/Users/AaronSnyder/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Aaron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 File: hw0_cover.pdf Graphic file (type pdf)
 <use hw0_cover.pdf, page 1>
 Package pdftex.def Info: hw0_cover.pdf , page1 used on input line 21.
@@ -433,8 +404,7 @@ File: hw0_cover.pdf Graphic file (type pdf)
 <use hw0_cover.pdf, page 1>
 Package pdftex.def Info: hw0_cover.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-[2 <./hw0_cover.pdf>]
+ [2 <./hw0_cover.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./hw0_cover.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
@@ -1585,23 +1555,27 @@ Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page8 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [54 <./compiled_outputs/compiled_plots.pdf>] (main.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7D0683E9AB424FED4CCEBBDE24F75397;545.
  ) 
 Here is how much of TeX's memory you used:
- 10342 strings out of 476331
- 176709 string characters out of 5784933
- 1853660 words of memory out of 5000000
- 30558 multiletter control sequences out of 15000+600000
- 515927 words of font info for 44 fonts, out of 8000000 for 9000
+ 10526 strings out of 475247
+ 175197 string characters out of 5757814
+ 1921801 words of memory out of 5000000
+ 31866 multiletter control sequences out of 15000+600000
+ 561709 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,77p,319b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/AaronSnyder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><C:/Users/AaronSnyder/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/AaronSnyder/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AaronSnyder/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (54 pages, 4527487 bytes).
+ 79i,17n,93p,319b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (54 pages, 4527523 bytes).
 PDF statistics:
  2112 PDF objects out of 2487 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
