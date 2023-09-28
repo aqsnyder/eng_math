@@ -14,3 +14,5 @@ total_integral = integral_value_1 + integral_value_2;
 fprintf('Value of I from 0 to 5: %.5f\n', total_integral);
 
 end
+
+% ref: https://www.mathworks.com/help/matlab/ref/integral.html

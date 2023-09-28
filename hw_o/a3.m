@@ -5,7 +5,7 @@ function logistic_growth_plot()
     P0 = 10.0;
     h = 0.1;
     N = 100;
-    r = 0.1;
+    r = 1;
     K = 1000;
 
     [t_vals, P_vals] = predictor_corrector(P0, t0, h, N, r, K);

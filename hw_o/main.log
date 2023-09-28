@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.9.20)  26 SEP 2023 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.9.20)  28 SEP 2023 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,11 +512,11 @@ Package pdftex.def Info: hand_calcs/1b.pdf , page1 used on input line 31.
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/1c.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/1c.pdf, id=596, 614.295pt x 794.97pt>
+<hand_calcs/1c.pdf, id=596, 1409.265pt x 1879.02pt>
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf>
 Package pdftex.def Info: hand_calcs/1c.pdf  used on input line 32.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+(pdftex.def)             Requested size: 1409.26158pt x 1879.01544pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/1c.pdf): PDF inclusion: found P
@@ -524,7 +524,7 @@ DF version <1.7>, but at most version <1.5> allowed
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf>
 Package pdftex.def Info: hand_calcs/1c.pdf  used on input line 32.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+(pdftex.def)             Requested size: 1409.26158pt x 1879.01544pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/1c.pdf): PDF inclusion: found P
@@ -533,32 +533,32 @@ DF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/1c.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/1c.pdf, id=599, page=1, 614.295pt x 794.97pt>
+<hand_calcs/1c.pdf, id=599, page=1, 1409.265pt x 1879.02pt>
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf, page 1>
 Package pdftex.def Info: hand_calcs/1c.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+(pdftex.def)             Requested size: 1409.26158pt x 1879.01544pt.
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf, page 1>
 Package pdftex.def Info: hand_calcs/1c.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 596.231pt x 794.97469pt.
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf, page 1>
 Package pdftex.def Info: hand_calcs/1c.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 596.231pt x 794.97469pt.
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf, page 1>
 Package pdftex.def Info: hand_calcs/1c.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 596.231pt x 794.97469pt.
 File: hand_calcs/1c.pdf Graphic file (type pdf)
 <use hand_calcs/1c.pdf, page 1>
 Package pdftex.def Info: hand_calcs/1c.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 596.231pt x 794.97469pt.
 [8 <./hand_calcs/1c.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/2b.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/2b.pdf, id=612, 1409.265pt x 1879.02pt>
+<hand_calcs/2b.pdf, id=1013, 1409.265pt x 1879.02pt>
 File: hand_calcs/2b.pdf Graphic file (type pdf)
 <use hand_calcs/2b.pdf>
 Package pdftex.def Info: hand_calcs/2b.pdf  used on input line 33.
@@ -579,7 +579,7 @@ DF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/2b.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/2b.pdf, id=615, page=1, 1409.265pt x 1879.02pt>
+<hand_calcs/2b.pdf, id=1016, page=1, 1409.265pt x 1879.02pt>
 File: hand_calcs/2b.pdf Graphic file (type pdf)
 <use hand_calcs/2b.pdf, page 1>
 Package pdftex.def Info: hand_calcs/2b.pdf , page1 used on input line 33.
@@ -604,7 +604,7 @@ Package pdftex.def Info: hand_calcs/2b.pdf , page1 used on input line 33.
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/3b.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/3b.pdf, id=886, 1409.265pt x 1879.02pt>
+<hand_calcs/3b.pdf, id=1287, 1409.265pt x 1879.02pt>
 File: hand_calcs/3b.pdf Graphic file (type pdf)
 <use hand_calcs/3b.pdf>
 Package pdftex.def Info: hand_calcs/3b.pdf  used on input line 34.
@@ -625,7 +625,7 @@ DF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./hand_calcs/3b.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<hand_calcs/3b.pdf, id=889, page=1, 1409.265pt x 1879.02pt>
+<hand_calcs/3b.pdf, id=1290, page=1, 1409.265pt x 1879.02pt>
 File: hand_calcs/3b.pdf Graphic file (type pdf)
 <use hand_calcs/3b.pdf, page 1>
 Package pdftex.def Info: hand_calcs/3b.pdf , page1 used on input line 34.
@@ -647,12 +647,12 @@ File: hand_calcs/3b.pdf Graphic file (type pdf)
 Package pdftex.def Info: hand_calcs/3b.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 596.231pt x 794.97469pt.
 [10 <./hand_calcs/3b.pdf>]
-<Python-Logo.jpg, id=1232, 446.66875pt x 439.6425pt>
+<Python-Logo.jpg, id=1633, 446.66875pt x 439.6425pt>
 File: Python-Logo.jpg Graphic file (type jpg)
 <use Python-Logo.jpg>
 Package pdftex.def Info: Python-Logo.jpg  used on input line 40.
 (pdftex.def)             Requested size: 172.5pt x 169.78949pt.
-<python_outputs/1a.pdf, id=1233, 614.295pt x 794.97pt>
+<python_outputs/1a.pdf, id=1634, 614.295pt x 794.97pt>
 File: python_outputs/1a.pdf Graphic file (type pdf)
 <use python_outputs/1a.pdf>
 Package pdftex.def Info: python_outputs/1a.pdf  used on input line 45.
@@ -661,7 +661,7 @@ File: python_outputs/1a.pdf Graphic file (type pdf)
 <use python_outputs/1a.pdf>
 Package pdftex.def Info: python_outputs/1a.pdf  used on input line 45.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/1a.pdf, id=1236, page=1, 614.295pt x 794.97pt>
+<python_outputs/1a.pdf, id=1637, page=1, 614.295pt x 794.97pt>
 File: python_outputs/1a.pdf Graphic file (type pdf)
 <use python_outputs/1a.pdf, page 1>
 Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 45.
@@ -684,7 +684,7 @@ File: python_outputs/1a.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1a.pdf , page1 used on input line 45.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [12 <./python_outputs/1a.pdf>]
-<python_outputs/1a.pdf, id=1302, page=2, 614.295pt x 794.97pt>
+<python_outputs/1a.pdf, id=1730, page=2, 614.295pt x 794.97pt>
 File: python_outputs/1a.pdf Graphic file (type pdf)
 <use python_outputs/1a.pdf, page 2>
 Package pdftex.def Info: python_outputs/1a.pdf , page2 used on input line 45.
@@ -698,7 +698,7 @@ File: python_outputs/1a.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1a.pdf , page2 used on input line 45.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [13 <./python_outputs/1a.pdf>]
-<python_outputs/1a.pdf, id=1308, page=3, 614.295pt x 794.97pt>
+<python_outputs/1a.pdf, id=1745, page=3, 614.295pt x 794.97pt>
 File: python_outputs/1a.pdf Graphic file (type pdf)
 <use python_outputs/1a.pdf, page 3>
 Package pdftex.def Info: python_outputs/1a.pdf , page3 used on input line 45.
@@ -712,7 +712,7 @@ File: python_outputs/1a.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1a.pdf , page3 used on input line 45.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [14 <./python_outputs/1a.pdf>]
-<python_outputs/1b.pdf, id=1313, 614.295pt x 794.97pt>
+<python_outputs/1b.pdf, id=1751, 614.295pt x 794.97pt>
 File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf>
 Package pdftex.def Info: python_outputs/1b.pdf  used on input line 46.
@@ -721,7 +721,7 @@ File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf>
 Package pdftex.def Info: python_outputs/1b.pdf  used on input line 46.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/1b.pdf, id=1316, page=1, 614.295pt x 794.97pt>
+<python_outputs/1b.pdf, id=1754, page=1, 614.295pt x 794.97pt>
 File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf, page 1>
 Package pdftex.def Info: python_outputs/1b.pdf , page1 used on input line 46.
@@ -743,7 +743,7 @@ File: python_outputs/1b.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1b.pdf , page1 used on input line 46.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [15 <./python_outputs/1b.pdf>]
-<python_outputs/1b.pdf, id=1381, page=2, 614.295pt x 794.97pt>
+<python_outputs/1b.pdf, id=1824, page=2, 614.295pt x 794.97pt>
 File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf, page 2>
 Package pdftex.def Info: python_outputs/1b.pdf , page2 used on input line 46.
@@ -757,7 +757,7 @@ File: python_outputs/1b.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1b.pdf , page2 used on input line 46.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [16 <./python_outputs/1b.pdf>]
-<python_outputs/1b.pdf, id=1395, page=3, 614.295pt x 794.97pt>
+<python_outputs/1b.pdf, id=1833, page=3, 614.295pt x 794.97pt>
 File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf, page 3>
 Package pdftex.def Info: python_outputs/1b.pdf , page3 used on input line 46.
@@ -771,7 +771,7 @@ File: python_outputs/1b.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1b.pdf , page3 used on input line 46.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [17 <./python_outputs/1b.pdf>]
-<python_outputs/1b.pdf, id=1402, page=4, 614.295pt x 794.97pt>
+<python_outputs/1b.pdf, id=1840, page=4, 614.295pt x 794.97pt>
 File: python_outputs/1b.pdf Graphic file (type pdf)
 <use python_outputs/1b.pdf, page 4>
 Package pdftex.def Info: python_outputs/1b.pdf , page4 used on input line 46.
@@ -785,7 +785,7 @@ File: python_outputs/1b.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1b.pdf , page4 used on input line 46.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [18 <./python_outputs/1b.pdf>]
-<python_outputs/1c.pdf, id=1408, 614.295pt x 794.97pt>
+<python_outputs/1c.pdf, id=1846, 614.295pt x 794.97pt>
 File: python_outputs/1c.pdf Graphic file (type pdf)
 <use python_outputs/1c.pdf>
 Package pdftex.def Info: python_outputs/1c.pdf  used on input line 47.
@@ -794,7 +794,7 @@ File: python_outputs/1c.pdf Graphic file (type pdf)
 <use python_outputs/1c.pdf>
 Package pdftex.def Info: python_outputs/1c.pdf  used on input line 47.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/1c.pdf, id=1411, page=1, 614.295pt x 794.97pt>
+<python_outputs/1c.pdf, id=1849, page=1, 614.295pt x 794.97pt>
 File: python_outputs/1c.pdf Graphic file (type pdf)
 <use python_outputs/1c.pdf, page 1>
 Package pdftex.def Info: python_outputs/1c.pdf , page1 used on input line 47.
@@ -816,7 +816,7 @@ File: python_outputs/1c.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1c.pdf , page1 used on input line 47.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [19 <./python_outputs/1c.pdf>]
-<python_outputs/1c.pdf, id=1485, page=2, 614.295pt x 794.97pt>
+<python_outputs/1c.pdf, id=1920, page=2, 614.295pt x 794.97pt>
 File: python_outputs/1c.pdf Graphic file (type pdf)
 <use python_outputs/1c.pdf, page 2>
 Package pdftex.def Info: python_outputs/1c.pdf , page2 used on input line 47.
@@ -830,7 +830,21 @@ File: python_outputs/1c.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/1c.pdf , page2 used on input line 47.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [20 <./python_outputs/1c.pdf>]
-<python_outputs/2a.pdf, id=1492, 614.295pt x 794.97pt>
+<python_outputs/1c.pdf, id=1925, page=3, 614.295pt x 794.97pt>
+File: python_outputs/1c.pdf Graphic file (type pdf)
+<use python_outputs/1c.pdf, page 3>
+Package pdftex.def Info: python_outputs/1c.pdf , page3 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1c.pdf Graphic file (type pdf)
+<use python_outputs/1c.pdf, page 3>
+Package pdftex.def Info: python_outputs/1c.pdf , page3 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/1c.pdf Graphic file (type pdf)
+<use python_outputs/1c.pdf, page 3>
+Package pdftex.def Info: python_outputs/1c.pdf , page3 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [21 <./python_outputs/1c.pdf>]
+<python_outputs/2a.pdf, id=1932, 614.295pt x 794.97pt>
 File: python_outputs/2a.pdf Graphic file (type pdf)
 <use python_outputs/2a.pdf>
 Package pdftex.def Info: python_outputs/2a.pdf  used on input line 48.
@@ -839,7 +853,7 @@ File: python_outputs/2a.pdf Graphic file (type pdf)
 <use python_outputs/2a.pdf>
 Package pdftex.def Info: python_outputs/2a.pdf  used on input line 48.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/2a.pdf, id=1495, page=1, 614.295pt x 794.97pt>
+<python_outputs/2a.pdf, id=1935, page=1, 614.295pt x 794.97pt>
 File: python_outputs/2a.pdf Graphic file (type pdf)
 <use python_outputs/2a.pdf, page 1>
 Package pdftex.def Info: python_outputs/2a.pdf , page1 used on input line 48.
@@ -859,83 +873,69 @@ Package pdftex.def Info: python_outputs/2a.pdf , page1 used on input line 48.
 File: python_outputs/2a.pdf Graphic file (type pdf)
 <use python_outputs/2a.pdf, page 1>
 Package pdftex.def Info: python_outputs/2a.pdf , page1 used on input line 48.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [21 <./python_outputs/2a.pdf>]
-<python_outputs/2a.pdf, id=1557, page=2, 614.295pt x 794.97pt>
-File: python_outputs/2a.pdf Graphic file (type pdf)
-<use python_outputs/2a.pdf, page 2>
-Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/2a.pdf Graphic file (type pdf)
-<use python_outputs/2a.pdf, page 2>
-Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/2a.pdf Graphic file (type pdf)
-<use python_outputs/2a.pdf, page 2>
-Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [22 <./python_outputs/2a.pdf>]
-<python_outputs/2b.pdf, id=1564, 614.295pt x 794.97pt>
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf>
-Package pdftex.def Info: python_outputs/2b.pdf  used on input line 49.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf>
-Package pdftex.def Info: python_outputs/2b.pdf  used on input line 49.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/2b.pdf, id=1567, page=1, 614.295pt x 794.97pt>
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 1>
-Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 1>
-Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
+<python_outputs/2a.pdf, id=1993, page=2, 614.295pt x 794.97pt>
+File: python_outputs/2a.pdf Graphic file (type pdf)
+<use python_outputs/2a.pdf, page 2>
+Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 1>
-Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
+File: python_outputs/2a.pdf Graphic file (type pdf)
+<use python_outputs/2a.pdf, page 2>
+Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 1>
-Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 1>
-Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
+File: python_outputs/2a.pdf Graphic file (type pdf)
+<use python_outputs/2a.pdf, page 2>
+Package pdftex.def Info: python_outputs/2a.pdf , page2 used on input line 48.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[23 <./python_outputs/2b.pdf>]
-<python_outputs/2b.pdf, id=1636, page=2, 614.295pt x 794.97pt>
+[23 <./python_outputs/2a.pdf>]
+<python_outputs/2b.pdf, id=1999, 614.295pt x 794.97pt>
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 2>
-Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
+<use python_outputs/2b.pdf>
+Package pdftex.def Info: python_outputs/2b.pdf  used on input line 49.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/2b.pdf Graphic file (type pdf)
+<use python_outputs/2b.pdf>
+Package pdftex.def Info: python_outputs/2b.pdf  used on input line 49.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<python_outputs/2b.pdf, id=2002, page=1, 614.295pt x 794.97pt>
+File: python_outputs/2b.pdf Graphic file (type pdf)
+<use python_outputs/2b.pdf, page 1>
+Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/2b.pdf Graphic file (type pdf)
+<use python_outputs/2b.pdf, page 1>
+Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 2>
-Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
+<use python_outputs/2b.pdf, page 1>
+Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 2>
-Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
+<use python_outputs/2b.pdf, page 1>
+Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/2b.pdf Graphic file (type pdf)
+<use python_outputs/2b.pdf, page 1>
+Package pdftex.def Info: python_outputs/2b.pdf , page1 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [24 <./python_outputs/2b.pdf>]
-<python_outputs/2b.pdf, id=1643, page=3, 614.295pt x 794.97pt>
+<python_outputs/2b.pdf, id=2089, page=2, 614.295pt x 794.97pt>
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 3>
-Package pdftex.def Info: python_outputs/2b.pdf , page3 used on input line 49.
+<use python_outputs/2b.pdf, page 2>
+Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 3>
-Package pdftex.def Info: python_outputs/2b.pdf , page3 used on input line 49.
+<use python_outputs/2b.pdf, page 2>
+Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/2b.pdf Graphic file (type pdf)
-<use python_outputs/2b.pdf, page 3>
-Package pdftex.def Info: python_outputs/2b.pdf , page3 used on input line 49.
+<use python_outputs/2b.pdf, page 2>
+Package pdftex.def Info: python_outputs/2b.pdf , page2 used on input line 49.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [25 <./python_outputs/2b.pdf>]
-<python_outputs/3a.pdf, id=1649, 614.295pt x 794.97pt>
+<python_outputs/3a.pdf, id=2097, 614.295pt x 794.97pt>
 File: python_outputs/3a.pdf Graphic file (type pdf)
 <use python_outputs/3a.pdf>
 Package pdftex.def Info: python_outputs/3a.pdf  used on input line 50.
@@ -944,7 +944,7 @@ File: python_outputs/3a.pdf Graphic file (type pdf)
 <use python_outputs/3a.pdf>
 Package pdftex.def Info: python_outputs/3a.pdf  used on input line 50.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/3a.pdf, id=1652, page=1, 614.295pt x 794.97pt>
+<python_outputs/3a.pdf, id=2100, page=1, 614.295pt x 794.97pt>
 File: python_outputs/3a.pdf Graphic file (type pdf)
 <use python_outputs/3a.pdf, page 1>
 Package pdftex.def Info: python_outputs/3a.pdf , page1 used on input line 50.
@@ -966,7 +966,7 @@ File: python_outputs/3a.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/3a.pdf , page1 used on input line 50.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [26 <./python_outputs/3a.pdf>]
-<python_outputs/3a.pdf, id=1723, page=2, 614.295pt x 794.97pt>
+<python_outputs/3a.pdf, id=2166, page=2, 614.295pt x 794.97pt>
 File: python_outputs/3a.pdf Graphic file (type pdf)
 <use python_outputs/3a.pdf, page 2>
 Package pdftex.def Info: python_outputs/3a.pdf , page2 used on input line 50.
@@ -980,72 +980,86 @@ File: python_outputs/3a.pdf Graphic file (type pdf)
 Package pdftex.def Info: python_outputs/3a.pdf , page2 used on input line 50.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [27 <./python_outputs/3a.pdf>]
-<python_outputs/3b.pdf, id=1730, 614.295pt x 794.97pt>
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf>
-Package pdftex.def Info: python_outputs/3b.pdf  used on input line 51.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf>
-Package pdftex.def Info: python_outputs/3b.pdf  used on input line 51.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_outputs/3b.pdf, id=1733, page=1, 614.295pt x 794.97pt>
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 1>
-Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 1>
-Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
+<python_outputs/3a.pdf, id=2177, page=3, 614.295pt x 794.97pt>
+File: python_outputs/3a.pdf Graphic file (type pdf)
+<use python_outputs/3a.pdf, page 3>
+Package pdftex.def Info: python_outputs/3a.pdf , page3 used on input line 50.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 1>
-Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
+File: python_outputs/3a.pdf Graphic file (type pdf)
+<use python_outputs/3a.pdf, page 3>
+Package pdftex.def Info: python_outputs/3a.pdf , page3 used on input line 50.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 1>
-Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 1>
-Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
+File: python_outputs/3a.pdf Graphic file (type pdf)
+<use python_outputs/3a.pdf, page 3>
+Package pdftex.def Info: python_outputs/3a.pdf , page3 used on input line 50.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[28 <./python_outputs/3b.pdf>]
-<python_outputs/3b.pdf, id=1795, page=2, 614.295pt x 794.97pt>
+[28 <./python_outputs/3a.pdf>]
+<python_outputs/3b.pdf, id=2183, 614.295pt x 794.97pt>
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 2>
-Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
+<use python_outputs/3b.pdf>
+Package pdftex.def Info: python_outputs/3b.pdf  used on input line 51.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf>
+Package pdftex.def Info: python_outputs/3b.pdf  used on input line 51.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<python_outputs/3b.pdf, id=2186, page=1, 614.295pt x 794.97pt>
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 1>
+Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 1>
+Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 2>
-Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
+<use python_outputs/3b.pdf, page 1>
+Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 2>
-Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
+<use python_outputs/3b.pdf, page 1>
+Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 1>
+Package pdftex.def Info: python_outputs/3b.pdf , page1 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [29 <./python_outputs/3b.pdf>]
-<python_outputs/3b.pdf, id=1800, page=3, 614.295pt x 794.97pt>
+<python_outputs/3b.pdf, id=2224, page=2, 614.295pt x 794.97pt>
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 3>
-Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+<use python_outputs/3b.pdf, page 2>
+Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 3>
-Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+<use python_outputs/3b.pdf, page 2>
+Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: python_outputs/3b.pdf Graphic file (type pdf)
-<use python_outputs/3b.pdf, page 3>
-Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+<use python_outputs/3b.pdf, page 2>
+Package pdftex.def Info: python_outputs/3b.pdf , page2 used on input line 51.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [30 <./python_outputs/3b.pdf>]
-<Matlab-Logo.jpg, id=1807, 903.375pt x 903.375pt>
+<python_outputs/3b.pdf, id=2230, page=3, 614.295pt x 794.97pt>
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 3>
+Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 3>
+Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: python_outputs/3b.pdf Graphic file (type pdf)
+<use python_outputs/3b.pdf, page 3>
+Package pdftex.def Info: python_outputs/3b.pdf , page3 used on input line 51.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [31 <./python_outputs/3b.pdf>]
+<Matlab-Logo.jpg, id=2238, 903.375pt x 903.375pt>
 File: Matlab-Logo.jpg Graphic file (type jpg)
 <use Matlab-Logo.jpg>
 Package pdftex.def Info: Matlab-Logo.jpg  used on input line 56.
 (pdftex.def)             Requested size: 172.5pt x 172.49767pt.
-<matlab_outputs/a1.pdf, id=1808, 614.295pt x 794.97pt>
+<matlab_outputs/a1.pdf, id=2239, 614.295pt x 794.97pt>
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf>
 Package pdftex.def Info: matlab_outputs/a1.pdf  used on input line 61.
@@ -1054,7 +1068,7 @@ File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf>
 Package pdftex.def Info: matlab_outputs/a1.pdf  used on input line 61.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/a1.pdf, id=1811, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/a1.pdf, id=2242, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 61.
@@ -1063,7 +1077,7 @@ File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 61.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [31 <./Matlab-Logo.jpg>]
+ [32 <./Matlab-Logo.jpg>]
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 61.
@@ -1075,37 +1089,37 @@ Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 61.
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
 <use matlab_outputs/a1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a1.pdf , page1 used on input line 61.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [32 <./matlab_outputs/a1.pdf>]
-<matlab_outputs/a1.pdf, id=1830, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [33 <./matlab_outputs/a1.pdf>]
-<matlab_outputs/a1.pdf, id=1835, page=3, 614.295pt x 794.97pt>
+<matlab_outputs/a1.pdf, id=2260, page=2, 614.295pt x 794.97pt>
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 3>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 3>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: matlab_outputs/a1.pdf Graphic file (type pdf)
-<use matlab_outputs/a1.pdf, page 3>
-Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+<use matlab_outputs/a1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [34 <./matlab_outputs/a1.pdf>]
-<matlab_outputs/b1.pdf, id=1840, 614.295pt x 794.97pt>
+<matlab_outputs/a1.pdf, id=2265, page=3, 614.295pt x 794.97pt>
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a1.pdf Graphic file (type pdf)
+<use matlab_outputs/a1.pdf, page 3>
+Package pdftex.def Info: matlab_outputs/a1.pdf , page3 used on input line 61.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [35 <./matlab_outputs/a1.pdf>]
+<matlab_outputs/b1.pdf, id=2270, 614.295pt x 794.97pt>
 File: matlab_outputs/b1.pdf Graphic file (type pdf)
 <use matlab_outputs/b1.pdf>
 Package pdftex.def Info: matlab_outputs/b1.pdf  used on input line 62.
@@ -1114,7 +1128,7 @@ File: matlab_outputs/b1.pdf Graphic file (type pdf)
 <use matlab_outputs/b1.pdf>
 Package pdftex.def Info: matlab_outputs/b1.pdf  used on input line 62.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/b1.pdf, id=1843, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/b1.pdf, id=2273, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/b1.pdf Graphic file (type pdf)
 <use matlab_outputs/b1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b1.pdf , page1 used on input line 62.
@@ -1134,23 +1148,23 @@ Package pdftex.def Info: matlab_outputs/b1.pdf , page1 used on input line 62.
 File: matlab_outputs/b1.pdf Graphic file (type pdf)
 <use matlab_outputs/b1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b1.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [35 <./matlab_outputs/b1.pdf>]
-<matlab_outputs/b1.pdf, id=1858, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/b1.pdf Graphic file (type pdf)
-<use matlab_outputs/b1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b1.pdf Graphic file (type pdf)
-<use matlab_outputs/b1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b1.pdf Graphic file (type pdf)
-<use matlab_outputs/b1.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [36 <./matlab_outputs/b1.pdf>]
-<matlab_outputs/c1.pdf, id=1863, 614.295pt x 794.97pt>
+<matlab_outputs/b1.pdf, id=2288, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/b1.pdf Graphic file (type pdf)
+<use matlab_outputs/b1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b1.pdf Graphic file (type pdf)
+<use matlab_outputs/b1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b1.pdf Graphic file (type pdf)
+<use matlab_outputs/b1.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b1.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [37 <./matlab_outputs/b1.pdf>]
+<matlab_outputs/c1.pdf, id=2294, 614.295pt x 794.97pt>
 File: matlab_outputs/c1.pdf Graphic file (type pdf)
 <use matlab_outputs/c1.pdf>
 Package pdftex.def Info: matlab_outputs/c1.pdf  used on input line 63.
@@ -1159,7 +1173,7 @@ File: matlab_outputs/c1.pdf Graphic file (type pdf)
 <use matlab_outputs/c1.pdf>
 Package pdftex.def Info: matlab_outputs/c1.pdf  used on input line 63.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/c1.pdf, id=1866, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/c1.pdf, id=2297, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/c1.pdf Graphic file (type pdf)
 <use matlab_outputs/c1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/c1.pdf , page1 used on input line 63.
@@ -1180,8 +1194,8 @@ File: matlab_outputs/c1.pdf Graphic file (type pdf)
 <use matlab_outputs/c1.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/c1.pdf , page1 used on input line 63.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [37 <./matlab_outputs/c1.pdf>]
-<matlab_outputs/a2.pdf, id=1880, 614.295pt x 794.97pt>
+ [38 <./matlab_outputs/c1.pdf>]
+<matlab_outputs/a2.pdf, id=2310, 614.295pt x 794.97pt>
 File: matlab_outputs/a2.pdf Graphic file (type pdf)
 <use matlab_outputs/a2.pdf>
 Package pdftex.def Info: matlab_outputs/a2.pdf  used on input line 64.
@@ -1190,7 +1204,7 @@ File: matlab_outputs/a2.pdf Graphic file (type pdf)
 <use matlab_outputs/a2.pdf>
 Package pdftex.def Info: matlab_outputs/a2.pdf  used on input line 64.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/a2.pdf, id=1883, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/a2.pdf, id=2313, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/a2.pdf Graphic file (type pdf)
 <use matlab_outputs/a2.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a2.pdf , page1 used on input line 64.
@@ -1210,23 +1224,23 @@ Package pdftex.def Info: matlab_outputs/a2.pdf , page1 used on input line 64.
 File: matlab_outputs/a2.pdf Graphic file (type pdf)
 <use matlab_outputs/a2.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a2.pdf , page1 used on input line 64.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [38 <./matlab_outputs/a2.pdf>]
-<matlab_outputs/a2.pdf, id=1897, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/a2.pdf Graphic file (type pdf)
-<use matlab_outputs/a2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a2.pdf Graphic file (type pdf)
-<use matlab_outputs/a2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a2.pdf Graphic file (type pdf)
-<use matlab_outputs/a2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [39 <./matlab_outputs/a2.pdf>]
-<matlab_outputs/b2.pdf, id=1902, 614.295pt x 794.97pt>
+<matlab_outputs/a2.pdf, id=2327, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/a2.pdf Graphic file (type pdf)
+<use matlab_outputs/a2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a2.pdf Graphic file (type pdf)
+<use matlab_outputs/a2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a2.pdf Graphic file (type pdf)
+<use matlab_outputs/a2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a2.pdf , page2 used on input line 64.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [40 <./matlab_outputs/a2.pdf>]
+<matlab_outputs/b2.pdf, id=2332, 614.295pt x 794.97pt>
 File: matlab_outputs/b2.pdf Graphic file (type pdf)
 <use matlab_outputs/b2.pdf>
 Package pdftex.def Info: matlab_outputs/b2.pdf  used on input line 65.
@@ -1235,7 +1249,7 @@ File: matlab_outputs/b2.pdf Graphic file (type pdf)
 <use matlab_outputs/b2.pdf>
 Package pdftex.def Info: matlab_outputs/b2.pdf  used on input line 65.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/b2.pdf, id=1905, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/b2.pdf, id=2335, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/b2.pdf Graphic file (type pdf)
 <use matlab_outputs/b2.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b2.pdf , page1 used on input line 65.
@@ -1255,23 +1269,23 @@ Package pdftex.def Info: matlab_outputs/b2.pdf , page1 used on input line 65.
 File: matlab_outputs/b2.pdf Graphic file (type pdf)
 <use matlab_outputs/b2.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b2.pdf , page1 used on input line 65.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [40 <./matlab_outputs/b2.pdf>]
-<matlab_outputs/b2.pdf, id=1920, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/b2.pdf Graphic file (type pdf)
-<use matlab_outputs/b2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b2.pdf Graphic file (type pdf)
-<use matlab_outputs/b2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b2.pdf Graphic file (type pdf)
-<use matlab_outputs/b2.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [41 <./matlab_outputs/b2.pdf>]
-<matlab_outputs/a3.pdf, id=1925, 614.295pt x 794.97pt>
+<matlab_outputs/b2.pdf, id=2350, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/b2.pdf Graphic file (type pdf)
+<use matlab_outputs/b2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b2.pdf Graphic file (type pdf)
+<use matlab_outputs/b2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b2.pdf Graphic file (type pdf)
+<use matlab_outputs/b2.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b2.pdf , page2 used on input line 65.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [42 <./matlab_outputs/b2.pdf>]
+<matlab_outputs/a3.pdf, id=2355, 614.295pt x 794.97pt>
 File: matlab_outputs/a3.pdf Graphic file (type pdf)
 <use matlab_outputs/a3.pdf>
 Package pdftex.def Info: matlab_outputs/a3.pdf  used on input line 66.
@@ -1280,7 +1294,7 @@ File: matlab_outputs/a3.pdf Graphic file (type pdf)
 <use matlab_outputs/a3.pdf>
 Package pdftex.def Info: matlab_outputs/a3.pdf  used on input line 66.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/a3.pdf, id=1928, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/a3.pdf, id=2358, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/a3.pdf Graphic file (type pdf)
 <use matlab_outputs/a3.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a3.pdf , page1 used on input line 66.
@@ -1300,23 +1314,23 @@ Package pdftex.def Info: matlab_outputs/a3.pdf , page1 used on input line 66.
 File: matlab_outputs/a3.pdf Graphic file (type pdf)
 <use matlab_outputs/a3.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/a3.pdf , page1 used on input line 66.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [42 <./matlab_outputs/a3.pdf>]
-<matlab_outputs/a3.pdf, id=1942, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/a3.pdf Graphic file (type pdf)
-<use matlab_outputs/a3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a3.pdf Graphic file (type pdf)
-<use matlab_outputs/a3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/a3.pdf Graphic file (type pdf)
-<use matlab_outputs/a3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [43 <./matlab_outputs/a3.pdf>]
-<matlab_outputs/b3.pdf, id=1948, 614.295pt x 794.97pt>
+<matlab_outputs/a3.pdf, id=2373, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/a3.pdf Graphic file (type pdf)
+<use matlab_outputs/a3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a3.pdf Graphic file (type pdf)
+<use matlab_outputs/a3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/a3.pdf Graphic file (type pdf)
+<use matlab_outputs/a3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/a3.pdf , page2 used on input line 66.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [44 <./matlab_outputs/a3.pdf>]
+<matlab_outputs/b3.pdf, id=2378, 614.295pt x 794.97pt>
 File: matlab_outputs/b3.pdf Graphic file (type pdf)
 <use matlab_outputs/b3.pdf>
 Package pdftex.def Info: matlab_outputs/b3.pdf  used on input line 67.
@@ -1325,7 +1339,7 @@ File: matlab_outputs/b3.pdf Graphic file (type pdf)
 <use matlab_outputs/b3.pdf>
 Package pdftex.def Info: matlab_outputs/b3.pdf  used on input line 67.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<matlab_outputs/b3.pdf, id=1951, page=1, 614.295pt x 794.97pt>
+<matlab_outputs/b3.pdf, id=2381, page=1, 614.295pt x 794.97pt>
 File: matlab_outputs/b3.pdf Graphic file (type pdf)
 <use matlab_outputs/b3.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b3.pdf , page1 used on input line 67.
@@ -1345,26 +1359,27 @@ Package pdftex.def Info: matlab_outputs/b3.pdf , page1 used on input line 67.
 File: matlab_outputs/b3.pdf Graphic file (type pdf)
 <use matlab_outputs/b3.pdf, page 1>
 Package pdftex.def Info: matlab_outputs/b3.pdf , page1 used on input line 67.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [44 <./matlab_outputs/b3.pdf>]
-<matlab_outputs/b3.pdf, id=1966, page=2, 614.295pt x 794.97pt>
-File: matlab_outputs/b3.pdf Graphic file (type pdf)
-<use matlab_outputs/b3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b3.pdf Graphic file (type pdf)
-<use matlab_outputs/b3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: matlab_outputs/b3.pdf Graphic file (type pdf)
-<use matlab_outputs/b3.pdf, page 2>
-Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [45 <./matlab_outputs/b3.pdf>]
+<matlab_outputs/b3.pdf, id=2396, page=2, 614.295pt x 794.97pt>
+File: matlab_outputs/b3.pdf Graphic file (type pdf)
+<use matlab_outputs/b3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b3.pdf Graphic file (type pdf)
+<use matlab_outputs/b3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: matlab_outputs/b3.pdf Graphic file (type pdf)
+<use matlab_outputs/b3.pdf, page 2>
+Package pdftex.def Info: matlab_outputs/b3.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[46 <./matlab_outputs/b3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=1971, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2401, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf  used on input lin
@@ -1387,7 +1402,7 @@ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=1974, page=1, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2404, page=1, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf, page 1>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page1 used on in
@@ -1398,7 +1413,7 @@ File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page1 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[46]
+[47]
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf, page 1>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page1 used on in
@@ -1414,11 +1429,11 @@ File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page1 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [47 <./compiled_outputs/compiled_plots.pdf>]
+ [48 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2000, page=2, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2430, page=2, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf, page 2>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page2 used on in
@@ -1432,113 +1447,113 @@ put line 71.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf, page 2>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page2 used on in
-put line 71.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[48 <./compiled_outputs/compiled_plots.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
-inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2019, page=3, 614.295pt x 794.97pt>
-File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 3>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
-put line 71.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 3>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
-put line 71.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 3>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [49 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2028, page=4, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2450, page=3, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 4>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
+<use compiled_outputs/compiled_plots.pdf, page 3>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 4>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
+<use compiled_outputs/compiled_plots.pdf, page 3>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 4>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
+<use compiled_outputs/compiled_plots.pdf, page 3>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page3 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [50 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2044, page=5, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2458, page=4, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 5>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
+<use compiled_outputs/compiled_plots.pdf, page 4>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 5>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
+<use compiled_outputs/compiled_plots.pdf, page 4>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 5>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
+<use compiled_outputs/compiled_plots.pdf, page 4>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page4 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [51 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2052, page=6, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2466, page=5, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 6>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
+<use compiled_outputs/compiled_plots.pdf, page 5>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 6>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
+<use compiled_outputs/compiled_plots.pdf, page 5>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 6>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
+<use compiled_outputs/compiled_plots.pdf, page 5>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page5 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [52 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2060, page=7, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2474, page=6, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 7>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+<use compiled_outputs/compiled_plots.pdf, page 6>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 7>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+<use compiled_outputs/compiled_plots.pdf, page 6>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
-<use compiled_outputs/compiled_plots.pdf, page 7>
-Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+<use compiled_outputs/compiled_plots.pdf, page 6>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page6 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [53 <./compiled_outputs/compiled_plots.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<compiled_outputs/compiled_plots.pdf, id=2069, page=8, 614.295pt x 794.97pt>
+<compiled_outputs/compiled_plots.pdf, id=2482, page=7, 614.295pt x 794.97pt>
+File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
+<use compiled_outputs/compiled_plots.pdf, page 7>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+put line 71.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
+<use compiled_outputs/compiled_plots.pdf, page 7>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+put line 71.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
+<use compiled_outputs/compiled_plots.pdf, page 7>
+Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page7 used on in
+put line 71.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[54 <./compiled_outputs/compiled_plots.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./compiled_outputs/compiled_plots.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<compiled_outputs/compiled_plots.pdf, id=2491, page=8, 614.295pt x 794.97pt>
 File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 <use compiled_outputs/compiled_plots.pdf, page 8>
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page8 used on in
@@ -1554,7 +1569,7 @@ File: compiled_outputs/compiled_plots.pdf Graphic file (type pdf)
 Package pdftex.def Info: compiled_outputs/compiled_plots.pdf , page8 used on in
 put line 71.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[54 <./compiled_outputs/compiled_plots.pdf>] (main.aux)
+[55 <./compiled_outputs/compiled_plots.pdf>] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1563,10 +1578,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7D0683E9AB424FED4CCEBBDE24F75397;545.
  ) 
 Here is how much of TeX's memory you used:
- 10526 strings out of 475247
- 175197 string characters out of 5757814
+ 10530 strings out of 475247
+ 175319 string characters out of 5757814
  1921801 words of memory out of 5000000
- 31866 multiletter control sequences out of 15000+600000
+ 31869 multiletter control sequences out of 15000+600000
  561709 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,17n,93p,319b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1575,9 +1590,9 @@ cmbx12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (54 pages, 4527523 bytes).
+Output written on main.pdf (55 pages, 4712512 bytes).
 PDF statistics:
- 2112 PDF objects out of 2487 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2536 PDF objects out of 2984 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
 
