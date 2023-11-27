@@ -1,60 +1,38 @@
-function yp_solution()
-    % Define the differential equation as a system of first order equations
-    function dy = system(t, y)
-        y1 = y(1);
-        y1_prime = y(2);
-        y2 = y(3);
-        y2_prime = y(4);
-        W = y1*y2_prime - y1_prime*y2;
+% Constants C1 and C2 from the solved initial conditions
+C1 = 14.17;
+C2 = -15.27;
 
-        % Define the nonhomogeneous part
-        f = 9*t^2 + 4*t;
+% Define the particular solution yp and the general solution
+yp = @(x) x.^3 .* (6*x + 5) / 10;
+y_general = @(x) C1 * x.^(-1) + C2 * x + yp(x);
 
-        u1_prime = -y2*f/W;
-        u2_prime = y1*f/W;
+% Define the range for x
+x = linspace(1, 5, 100);
 
-        % The equations derived from the given ODE
-        y1_double_prime = (y1 - t*y1_prime)/t^2;
-        y2_double_prime = (y2 - t*y2_prime)/t^2;
+% Evaluate the general solution over the range of x
+y = y_general(x);
 
-        dy = [y1_prime; y1_double_prime; y2_prime; y2_double_prime];
+% Calculate the area under the curve using Simpson's rule
+area_simpsons = simpsons_rule(y_general, 1, 5, 100);
+disp(['Area under the curve using Simpson''s rule: ', num2str(area_simpsons)]);
+
+% Plotting
+plot(x, y, 'DisplayName', 'General Solution');
+hold on;
+title('General Solution of the Differential Equation');
+xlabel('x');
+ylabel('y');
+legend show;
+grid on;
+
+% Simpson's rule function
+function area = simpsons_rule(f, a, b, n)
+    if mod(n, 2) == 1
+        error('n must be an even integer.');
     end
-
-    % Initial conditions: Assuming y1 and y2 are solutions of the homogeneous equation
-    y1_0 = 1;
-    y1_prime_0 = 0;
-    y2_0 = 0;
-    y2_prime_0 = 1;
-
-    [x, sol] = ode45(@system, [1, 5], [y1_0, y1_prime_0, y2_0, y2_prime_0]);
-
-    y1 = sol(:,1);
-    y1_prime = sol(:,2);
-    y2 = sol(:,3);
-    y2_prime = sol(:,4);
-
-    % Calculate Wronskian
-    W = y1.*y2_prime - y1_prime.*y2;
-
-    % Calculate the particular solution using Cramer's rule
-    f = 9*x.^2 + 4*x;
-
-    % Integrate using Simpson's rule
-    u1 = zeros(size(x));
-    u2 = zeros(size(x));
-
-    for i = 2:length(x)
-        u1(i) = u1(i-1) + (x(i) - x(i-1)) * (-y2(i) * f(i) / W(i));
-        u2(i) = u2(i-1) + (x(i) - x(i-1)) * (y1(i) * f(i) / W(i));
-    end
-
-    y_p = y1.*u1 + y2.*u2;
-
-    % Plotting the particular solution
-    plot(x, y_p, 'DisplayName', 'y_p(x)');
-    title('Particular Solution');
-    xlabel('x');
-    ylabel('y_p');
-    legend();
-    grid on;
+    h = (b - a) / n;
+    x = linspace(a, b, n+1);
+    y = f(x);
+    S = h/3 * sum(y(1:2:end-2) + 4*y(2:2:end-1) + y(3:2:end));
+    area = S;
 end

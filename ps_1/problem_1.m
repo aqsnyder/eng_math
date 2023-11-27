@@ -1,65 +1,32 @@
-function main
-    t = linspace(0, 10, 5000);
-    dt = t(2) - t(1);
-    
-    v = zeros(size(t));
-    v(1) = 0;
+% Define the function v(t)
+v = @(t) (exp(2*t) - 1) ./ (exp(2*t) + 1);
 
-    for i = 2:length(t)
-        v(i) = rk4(v(i-1), t(i-1), dt);
-    end
+% Generate a range of t values
+t = linspace(0, 5, 400);
 
-    % Handle for v=0.95
-    idx_95 = find(v >= 0.95, 1, 'first');
-    if ~isempty(idx_95)
-        time_95 = t(idx_95);
-        fprintf('Velocity reaches 95%% at %.2f non-dimensional units.\n', time_95);
-    else
-        idx_95 = [];
-        time_95 = [];
-    end
+% Calculate v for each t
+v_values = v(t);
 
-    % Handle for v=1 (terminal velocity)
-    idx_1 = find(v >= 0.999999, 1, 'first');
-    if ~isempty(idx_1)
-        time_1 = t(idx_1);
-        fprintf('Velocity reaches terminal velocity at %.2f non-dimensional units.\n', time_1);
-    else
-        idx_1 = [];
-        time_1 = [];
-    end
+% Find the time t when velocity v is approximately 0.95
+target_v = 0.95;
+[~, idx] = min(abs(v_values - target_v));
+t_at_target_v = t(idx);
+fprintf('Non-dimensional time when velocity is approximately %.2f: %.2f\n', target_v, t_at_target_v);
 
-    figure('Position', [100, 100, 800, 480]);
-    plot(t, v, 'b-', 'LineWidth', 1.5, 'DisplayName', 'Dimensionless Velocity $\hat{V}$');
-    xlabel('Time (non-dimensional units)', 'Interpreter', 'latex');
-    ylabel('Dimensionless Velocity $\hat{V}$', 'Interpreter', 'latex');
-    title('Dimensionless Velocity vs Time', 'Interpreter', 'latex');
-    grid on;
-    hold on;
+% Create the plot
+figure;
+plot(t, v_values, 'DisplayName', 'v(t) = (e^{2t} - 1) / (e^{2t} + 1)');
+title('Graph of v(t)');
+xlabel('t');
+ylabel('v(t)');
+hold on;
+grid on;
 
-    if ~isempty(time_95)
-        yline(0.95, 'r--', 'DisplayName', '95% of Terminal Velocity');
-        xline(time_95, 'g--', 'DisplayName', sprintf('Time (95%%) = %.2f non-dimensional units', time_95));
-    end
+% Plotting lines
+yline(0, 'k', 'LineWidth', 0.5);
+xline(0, 'k', 'LineWidth', 0.5);
+yline(target_v, 'r--', 'DisplayName', sprintf('v = %.2f', target_v));
+xline(t_at_target_v, 'g--', 'DisplayName', sprintf('t at v = %.2f (%.2f)', target_v, t_at_target_v));
 
-    if ~isempty(time_1)
-        yline(1.0, 'm--', 'DisplayName', 'Terminal Velocity');
-        xline(time_1, 'Color', [1 0.6 0], 'LineStyle', '--', 'DisplayName', sprintf('Time (Terminal) = %.2f non-dimensional units', time_1));
-    end
-
-    legend('show', 'Location', 'best', 'Interpreter', 'latex');
-    hold off;
-end
-
-function dvdt = model(v)
-    dvdt = 1 - v.^2;
-end
-
-function v_new = rk4(v, t, dt)
-    k1 = dt * model(v);
-    k2 = dt * model(v + 0.5 * k1);
-    k3 = dt * model(v + 0.5 * k2);
-    k4 = dt * model(v + k3);
-    
-    v_new = v + (k1 + 2*k2 + 2*k3 + k4) / 6.0;
-end
+legend;
+hold off;
