@@ -1,50 +1,50 @@
-function problem_2(terms_to_use)
-    w = @(x) x.^3;
-    figure; % Open a new figure window
-    for index = 1:length(terms_to_use)
-        lam = getlam(terms_to_use(index));
-        Nx = 4*length(lam); if Nx<100, Nx=100; end
-        dx = 4/Nx; xx = 0:dx:4;
-        gg = QQ(xx); % Updated to use the new function QQ
-        frep = zeros(size(xx));
-        yn = zeros(size(xx));
+function problem_2(terms)
+    weightFunction = @(x) x.^3;
+    figure;
+    for index = 1:length(terms)
+        eigenvalues = computeEigenvalues(terms(index));
+        numPoints = 4*length(eigenvalues); if numPoints<100, numPoints=100; end
+        stepSize = 4/numPoints; xValues = 0:stepSize:4;
+        targetFunction = computeQQ(xValues);
+        rep = zeros(size(xValues));
+        eigenFunction = zeros(size(xValues));
 
-        for ll = lam
-            yn(1) = ll/2;
-            yn(2:end) = besselj(1, ll*xx(2:end))./xx(2:end);
-            NN = simp_int(yn.^2.*w(xx),dx);
-            fhat = simp_int(yn.*gg.*w(xx),dx);
-            frep = frep + fhat*yn/NN;
+        for eigenvalue = eigenvalues
+            eigenFunction(1) = eigenvalue/2;
+            eigenFunction(2:end) = besselj(1, eigenvalue*xValues(2:end))./xValues(2:end);
+            N_hat = simpsonIntegral(eigenFunction.^2.*weightFunction(xValues),stepSize);
+            Q_hat = simpsonIntegral(eigenFunction.*targetFunction.*weightFunction(xValues),stepSize);
+            rep = rep + Q_hat*eigenFunction/N_hat;
         end
 
-        subplot(2, 2, index); % Create a subplot for each term
-        plot(xx, frep, ':', xx, gg, '-k', 'linewidth', 2);
-        title(sprintf('Using %d terms of eigens', terms_to_use(index)));
+        subplot(2, 2, index);
+        plot(xValues, rep, ':', xValues, targetFunction, '-k', 'linewidth', 2);
+        title(sprintf('Using %d terms of eigens', terms(index)));
     end
 end
 
-function foo = simp_int(a, dx)
-    foo = dx/3*(a(1)+a(end)+4*sum(a(2:2:end-1))+2*sum(a(3:2:end-2)));
+function integral = simpsonIntegral(values, dx)
+    integral = dx/3*(values(1)+values(end)+4*sum(values(2:2:end-1))+2*sum(values(3:2:end-2)));
 end
 
-function lams = getlam(N)
-    lams = zeros(1, N); iroot = 0;
-    ff = @(l) 0.5*(besselj(0, 4*l) - besselj(2, 4*l));
-    x = 0; dx = 1/10;
-    while iroot < N
-        while ff(x) * ff(x+dx) > 0, x = x + dx; end
-        iroot = iroot + 1;
-        lams(iroot) = fzero(ff, x);
-        x = x + 2*dx;
+function eigenvalues = computeEigenvalues(terms)
+    eigenvalues = zeros(1, terms); currentRootIndex = 0;
+    functionValue = @(l) 0.5*(besselj(0, 4*l) - besselj(2, 4*l));
+    x = 0; step = 1/10;
+    while currentRootIndex < terms
+        while functionValue(x) * functionValue(x+step) > 0, x = x + step; end
+        currentRootIndex = currentRootIndex + 1;
+        eigenvalues(currentRootIndex) = fzero(functionValue, x);
+        x = x + 2*step;
     end
 end
 
-function foo = QQ(x)
+function QQvalues = computeQQ(x)
     % Nested function for QQ
-    foo = zeros(size(x));
-    foo(x >= 1 & x < 2) = abs(sin(6 * (x(x >= 1 & x < 2) - 1)));
-    foo(x >= 2 & x < 3) = sqrt(x(x >= 2 & x < 3) - 2) - sin(6);
-    foo(x >= 3) = 0;
+    QQvalues = zeros(size(x));
+    QQvalues(x >= 1 & x < 2) = abs(sin(6 * (x(x >= 1 & x < 2) - 1)));
+    QQvalues(x >= 2 & x < 3) = sqrt(x(x >= 2 & x < 3) - 2) - sin(6);
+    QQvalues(x >= 3) = 0;
 end
 
-%problem_2([5, 10, 20, 40]);
+% problem_2([5, 10, 20, 40]);
