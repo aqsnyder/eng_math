@@ -2,7 +2,7 @@
 alpha = 9;
 beta = 8;
 gamma = 5;
-A = 1; % still need to solve for the actual coefficients in the Sturm-Liouville solution
+A = 0.5; % still need to solve for the actual coefficients in the Sturm-Liouville solution
 
 % Finite Difference Method Setup
 N = 60;

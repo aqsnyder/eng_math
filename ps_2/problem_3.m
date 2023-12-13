@@ -1,102 +1,95 @@
-% Define Q as an anonymous function
+% Parameters
+N_max = 20; % Maximum number of terms in the series
+w = 1; % Weight function
+x_values = linspace(0, 4, 100); % x values to evaluate the solution at
+alpha_squared = 2;
+A = 9;
+B = 8;
+
+% Q(x) function
 Q = @(x) (0.*(x>=0 & x<1) + ...
-          abs(sin(6*(x - 1))).*(x>=1 & x<2) + ...
-          (sqrt(x - 2) - sin(6)).*(x>=2 & x<3) + ...
+          abs(sin(6.*(x-1))).*(x>=1 & x<2) + ...
+          (sqrt(x-2) - sin(6)).*(x>=2 & x<3) + ...
           0.*(x>=3 & x<=4));
 
-% Parameters for the problem
-A = 9; % Z(0) = A
-B = 8; % Z'(4) = B
-alpha = sqrt(2);
-N_fd = 100; % Number of points for the finite difference method
-a = 0; % Start of interval
-b = 4; % End of interval
-dx_fd = (b - a) / (N_fd-1);
-xx_fd = linspace(a, b, N_fd);
-N_series = 40; % 
+% Eigenfunctions yn
+yn = @(n, x) sin(((2*n - 1) * pi) / 8 * x);
 
-Q_values_fd = Q(xx_fd);
+% Q_hat, N_hat, Z_hat functions with Simpson's rule
+dx = x_values(2) - x_values(1);
+Q_hat = @(n) simpson(arrayfun(Q, x_values) .* arrayfun(@(x) yn(n, x), x_values), dx);
+N_hat = @(n) simpson((arrayfun(@(x) yn(n, x), x_values)).^2 * w, dx);
 
-% Coefficients for the tridiagonal matrix
-main_diag = (-2 + dx_fd^2 * alpha^2) * ones(N_fd, 1);
-off_diag = ones(N_fd - 1, 1);
-rhs = -dx_fd^2 * Q_values_fd;
+Z_hat = @(n) Q_hat(n) / (2 - ((2*n - 1) * pi / 8)^2);
 
-% Solve the tridiagonal system using the tridiag_dB function
-yy_fd = tridiag_dB([0; off_diag], main_diag, [off_diag; 0], rhs, A, B);
+% Sturm-Liouville solution Z(x)
+Z_SL = @(x, N_max) sum(arrayfun(@(n) Z_hat(n) .* yn(n, x) / N_hat(n), 1:N_max));
 
-% Plot the finite difference solution
-plot(xx_fd, yy_fd, 'b', 'LineWidth', 2); hold on;
+% Apply the Sturm-Liouville solution to each x value
+Z_SL_values = arrayfun(@(x) Z_SL(x, N_max), x_values);
 
-% Call the Qfunc to plot the series solution, passing Q as an argument
-Qfunc(N_fd, Q);
+% Finite Difference Method
+x_values_fd = linspace(0, 4, N_max);
+dx_fd = 4 / (N_max - 1);
+Q_fd = arrayfun(Q, x_values_fd) * dx_fd^2;
+Q_fd(1) = A;
+Q_fd(end) = B * dx_fd;
 
-% Add the Wronskian method plot
-%yy_wronskian = wronskianMethod(xx_fd);
-%plot(xx_fd, yy_wronskian, 'g', 'LineWidth', 2);
+% Coefficient matrix
+M = zeros(N_max, N_max);
+for i = 2:N_max-1
+    M(i, i-1) = 1;
+    M(i, i) = -2 - (alpha_squared * dx_fd^2);
+    M(i, i+1) = 1;
+end
+M(1, 1) = 1;
+M(end, end-1) = -1;
+M(end, end) = 1;
 
-% Adjust the figure properties
-title('Solutions Comparison');
+% Solve the system of equations
+Z_fd_corrected = M \ Q_fd';
+
+wronskian = @(f, g, x) (f(x + h) - f(x - h))/(2*h) * g(x) - f(x) * (g(x + h) - g(x - h))/(2*h);
+% Define y1, y2, and Wronskian
+y1 = @(x) cos(sqrt(alpha_squared) * x);
+y2 = @(x) sin(sqrt(alpha_squared) * x);
+
+% Compute the Wronskian for y1 and y2
+h = 1e-5; % Step size for derivative
+W = arrayfun(@(x) wronskian(y1, y2, x), x_values);
+
+% Compute integrals for u1 and u2 numerically using Simpson's rule
+u1 = zeros(size(x_values));
+u2 = zeros(size(x_values));
+for i = 2:length(x_values)
+    xi = x_values(1:i);
+    u1(i) = simpson(arrayfun(@(x) Q(x) * y2(x) / wronskian(y1, y2, x), xi), dx);
+    u2(i) = simpson(arrayfun(@(x) Q(x) * y1(x) / wronskian(y1, y2, x), xi), dx);
+end
+
+% Particular solution Zp
+Zp = u1 .* arrayfun(y1, x_values) + u2 .* arrayfun(y2, x_values);
+
+% Solve for c1 and c2 using boundary conditions
+coeff = [y1(0), y2(0); wronskian(y1, y2, 4), wronskian(y1, y2, 4)];
+rhs = [A - Zp(1), B - (wronskian(y1, y2, 4) * y2(4))];
+c = coeff \ rhs';
+
+% Full solution Z_W
+Z_W = c(1) * arrayfun(y1, x_values) + c(2) * arrayfun(y2, x_values) + Zp;
+
+
+% Plot the results
+plot(x_values, Z_SL_values, 'r', 'DisplayName', 'Z_SL(x)');
+hold on;
+plot(x_values, Z_W, 'g', 'DisplayName', 'Z_W(x)');
+plot(x_values_fd, Z_fd_corrected, 'b--', 'DisplayName', 'Z_fd_corrected(x)');
 xlabel('x');
 ylabel('Z(x)');
-legend('Finite Difference', 'Series Expansion');
+legend;
 grid on;
-hold off; % Stop adding to the current figure
 
-
-% Function for the tridiagonal matrix solution
-function yy = tridiag_dB(a,b,c,d,A,B)
-    N = length(b);
-    c(1) = c(1) / b(1);
-    d(1) = (d(1) - A) / b(1);
-
-    for i = 2:N
-        temp = b(i) - a(i) * c(i-1);
-        c(i) = c(i) / temp;
-        d(i) = (d(i) - a(i) * d(i-1)) / temp;
-    end
-
-    yy = zeros(N, 1);
-    yy(N) = (d(N) - B) / b(N);
-
-    for i = N-1:-1:1
-        yy(i) = d(i) - c(i) * yy(i+1);
-    end
+% Simpson's rule integrator
+function result = simpson(Q, dx)
+    result = dx/3 * (Q(1) + Q(end) + 4*sum(Q(2:2:end-1)) + 2*sum(Q(3:2:end-2)));
 end
-
-% Function for the series expansion solution
-function Qfunc(N, Q)
-    dx = 1/100;
-    x = 0:dx:4;
-    lam = ((2*(1:N)-1)*pi)/8;
-    w = ones(size(x));
-    q = Q(x);
-    
-    Qfunc = zeros(size(x));
-    for n = 1:N
-        yn = sin(lam(n)*x);
-        Nn = simpson(yn.^2 .* w, dx);
-        Q_hat = simpson(yn.*w, dx);
-        Z_hat = Q_hat./(2-lam(n).^2);
-        Qfunc = Qfunc + Z_hat * yn / Nn;
-    end
-    
-    plot(x, Qfunc, '--r', 'LineWidth', 2);
-end
-
-% Function for Simpson's rule (numerical integration)
-function foo = simpson(Q, dx)
-    foo = dx/3 * (Q(1) + Q(end) + 4 * sum(Q(2:2:end-1)) + 2 * sum(Q(3:2:end-2)));
-end
-
-% Function for the Wronskian method solution
-%function yy = wronskianMethod(x)
-    %yp = @(x) ; %
-    %C1 = 
-    %C2 =
-  
-    %y_general = @(x) C1 .* x.^(-1) + C2 .* x + yp(x);
-    
-    % Evaluate the general solution
-    %yy = y_general(x);
-%end
