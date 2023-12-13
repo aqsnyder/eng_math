@@ -1,5 +1,5 @@
 % Parameters
-N_max = 20; % Maximum number of terms in the series
+N_max = 50; % Maximum number of terms in the series
 w = 1; % Weight function
 x_values = linspace(0, 4, 100); % x values to evaluate the solution at
 alpha_squared = 2;
@@ -28,7 +28,6 @@ Z_SL = @(x, N_max) sum(arrayfun(@(n) Z_hat(n) .* yn(n, x) / N_hat(n), 1:N_max));
 % Apply the Sturm-Liouville solution to each x value
 Z_SL_values = arrayfun(@(x) Z_SL(x, N_max), x_values);
 
-% Finite Difference Method
 x_values_fd = linspace(0, 4, N_max);
 dx_fd = 4 / (N_max - 1);
 Q_fd = arrayfun(Q, x_values_fd) * dx_fd^2;
@@ -46,15 +45,12 @@ M(1, 1) = 1;
 M(end, end-1) = -1;
 M(end, end) = 1;
 
-% Solve the system of equations
 Z_fd_corrected = M \ Q_fd';
 
-wronskian = @(f, g, x) (f(x + h) - f(x - h))/(2*h) * g(x) - f(x) * (g(x + h) - g(x - h))/(2*h);
-% Define y1, y2, and Wronskian
 y1 = @(x) cos(sqrt(alpha_squared) * x);
 y2 = @(x) sin(sqrt(alpha_squared) * x);
+wronskian = @(f, g, x) (f(x + h) - f(x - h))/(2*h) * g(x) - f(x) * (g(x + h) - g(x - h))/(2*h);
 
-% Compute the Wronskian for y1 and y2
 h = 1e-5; % Step size for derivative
 W = arrayfun(@(x) wronskian(y1, y2, x), x_values);
 
@@ -71,23 +67,28 @@ end
 Zp = u1 .* arrayfun(y1, x_values) + u2 .* arrayfun(y2, x_values);
 
 % Solve for c1 and c2 using boundary conditions
-coeff = [y1(0), y2(0); wronskian(y1, y2, 4), wronskian(y1, y2, 4)];
-rhs = [A - Zp(1), B - (wronskian(y1, y2, 4) * y2(4))];
+coeff = [y1(0), y2(0); derivative(y1, 4), derivative(y2, 4)];
+rhs = [A - Zp(1), B - derivative(@(x) y2(x), 4)];
 c = coeff \ rhs';
 
 % Full solution Z_W
 Z_W = c(1) * arrayfun(y1, x_values) + c(2) * arrayfun(y2, x_values) + Zp;
 
-
 % Plot the results
-plot(x_values, Z_SL_values, 'r', 'DisplayName', 'Z_SL(x)');
+plot(x_values, Z_SL_values, 'r', 'DisplayName', 'Z-SL(x)');
 hold on;
 plot(x_values, Z_W, 'g', 'DisplayName', 'Z_W(x)');
-plot(x_values_fd, Z_fd_corrected, 'b--', 'DisplayName', 'Z_fd_corrected(x)');
+plot(x_values_fd, Z_fd_corrected, 'b--', 'DisplayName', 'Z-FD(x)');
 xlabel('x');
 ylabel('Z(x)');
 legend;
 grid on;
+
+
+function result = derivative(f, x)
+    h = 1e-5; % Step size for derivative
+    result = (f(x + h) - f(x - h)) / (2 * h);
+end
 
 % Simpson's rule integrator
 function result = simpson(Q, dx)

@@ -3,6 +3,7 @@ alpha = 9;
 beta = 8;
 gamma = 5;
 A = 0.5; % still need to solve for the actual coefficients in the Sturm-Liouville solution
+% ran out of time for solving this problem 
 
 % Finite Difference Method Setup
 N = 60;
@@ -52,23 +53,23 @@ end
 
 % Sturm-Liouville solutions
 k_root = 5.00045361; % Previously computed eigenvalue
-sl_u_y_at_x_3_2 = A * cosh(k_root * y);
-sl_u_x_at_y_3_4 = A * sin((pi/2) * x);
+sl_u_y_1 = A * cosh(k_root * y);
+sl_u_x_2 = A * sin((pi/2) * x);
 
 % Extracting finite difference solutions at the specified lines
-x_index_3_2 = round(1.5 / dx);
-y_index_3_4 = round(0.75 / dy);
-fd_u_y_at_x_3_2 = u(:, x_index_3_2);
-fd_u_x_at_y_3_4 = u(y_index_3_4, :);
+x_index_1 = round(1.5 / dx);
+y_index_2 = round(0.75 / dy);
+fd_u_y_1 = u(:, x_index_1);
+fd_u_x_2 = u(y_index_2, :);
 
 % Plotting the comparison
 figure;
 
 % Plot for u(y) at x=3/2
 subplot(1, 2, 1);
-plot(y, fd_u_y_at_x_3_2, 'r--');
+plot(y, fd_u_y_1, 'r--');
 hold on;
-plot(y, sl_u_y_at_x_3_2, 'k-');
+plot(y, sl_u_y_1, 'k-');
 xlabel('y');
 ylabel('u');
 title('u(y) at x=3/2 Comparison');
@@ -77,9 +78,9 @@ grid on;
 
 % Plot for u(x) at y=3/4
 subplot(1, 2, 2);
-plot(x, fd_u_x_at_y_3_4, 'r--');
+plot(x, fd_u_x_2, 'r--');
 hold on;
-plot(x, sl_u_x_at_y_3_4, 'k-');
+plot(x, sl_u_x_2, 'k-');
 xlabel('x');
 ylabel('u');
 title('u(x) at y=3/4 Comparison');
