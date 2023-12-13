@@ -26,7 +26,7 @@ rhs = -dx_fd^2 * Q_values_fd;
 yy_fd = tridiag_dB([0; off_diag], main_diag, [off_diag; 0], rhs, A, B);
 
 % Plot the finite difference solution
-%plot(xx_fd, yy_fd, 'b', 'LineWidth', 2); hold on;
+plot(xx_fd, yy_fd, 'b', 'LineWidth', 2); hold on;
 
 % Call the Qfunc to plot the series solution, passing Q as an argument
 Qfunc(N_fd, Q);
